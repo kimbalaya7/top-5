@@ -1,0 +1,13 @@
+ol { display:flex; flex-wrap:wrap; flex-direction:row; }
+ol li { flex:1 1 auto; width:40%; }
+
+
+@media only screen and (max-width: 480px) {
+  ol {
+    flex-direction: column;
+  }
+  
+  img {
+    width: 100%;
+  }  
+}
